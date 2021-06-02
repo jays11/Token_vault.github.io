@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DeveloperHomeSite.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TOKEN VAULT</title>
+
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" />
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+
+<script type="text/javascript" src="js/custom.js"></script>
+
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+   <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       <div id="container" class="width">
+
+    <header> 
+	<div class="width">
+
+    		<h1><a href="#">TOKEN<strong> VAULT</strong></a></h1>
+
+		<nav>
+	
+    			<ul class="sf-menu dropdown">
+
+			
+        			<li class="selected"><a href="Home2.aspx"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="UpdateTokenStatus.aspx"><i class="fa fa-briefcase"></i>Update Token Status</a></li>
+                    <li>
+
+					<a href="DeveloperTokenAssignCheck.aspx"><i class="fa fa-code"></i>Assigned Token</a>
+            			
+					
+
+            			</li>
+
+            			<li>
+
+					<a href="DeveloperManageQuery.aspx"><i class="fa fa-code"></i>Manage Query</a>
+            			
+					
+
+            			</li>
+
+	     			
+            
+				
+				<li><a href="Logout.aspx"><i class="fa fa-phone"></i>Logout</a></li>
+       			</ul>
+
+			
+			<div class="clear"></div>
+    		</nav>
+       	</div>
+
+	<div class="clear"></div>
+
+       
+    </header>
+
+
+    <div id="intro">
+
+	<div class="width">
+      
+		<div class="intro-content">
+	
+                  
+                    <h2>Your Voice , Your Choice</h2>
+                    <p> Token Vault , An Online System </p>
+                                  	
+			<p></p>
+                    
+
+            	</div>
+                
+            </div>
+            
+
+	</div>
+
+    <div id="body" class="width">
+
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+		
+        </section>
+       
+    	<div class="clear"></div>
+    </div>
+    <footer>
+        <div class="footer-content width">
+            <ul>
+            	<li><h4>Why Token Vaukt ??</h4></li>
+                <li><a href="#">Reliable</a></li>
+                <li><a href="#">Easy to Use</a></li>
+                
+            </ul>
+            
+            <ul>
+            	<li><h4>Features</h4></li>
+                <li><a href="#">Easy to Manage.</a></li>
+                <li><a href="#">Quick Reporting and Monitoring</a></li>
+                
+            </ul>
+
+ 	    <ul>
+                <li><h4>Developer's Board</h4></li>
+                <li><a href="#">Work</a></li>
+               
+                
+            </ul>
+            
+            <ul class="endfooter">
+            	<br /><br />
+
+<div class="social-icons">
+
+<a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+
+<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+
+<a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+
+<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+
+</div>
+
+</li>
+            </ul>
+            
+            <div class="clear"></div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Token Vault 2021. Developed By <a href="http://google.com/">Jay shah</a> </p>
+         </div>
+    </footer></div>
+    </div>
+    </form>
+</body>
+</html>
+ 
